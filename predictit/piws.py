@@ -6,7 +6,8 @@ import time
 
 import websockets
 import requests
-import predictit as pi
+
+from . import pi
 
 # Check these 
 TRADE_TYPE_BUY = 1
